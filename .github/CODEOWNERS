@@ -1,0 +1,35 @@
+# CODEOWNERS file for notification-connector-239
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/squad-payments @Armor-test/squad-tooling
+
+# Directory ownership
+/third_party/ @Armor-test/squad-api @Armor-test/squad-reporting @Armor-test/squad-tooling
+/pages/ @Armor-test/squad-apps @Armor-test/unit-devops @Armor-test/team-research
+/spec/ @Armor-test/grp-ui @Armor-test/dept-api @Armor-test/squad-cloud
+/build/ @Armor-test/team-notifications @Armor-test/dept-logging
+/ui/ @Armor-test/unit-test @Armor-test/dept-ui
+/assets/ @Armor-test/squad-api @Armor-test/dept-notifications
+/helpers/ @Armor-test/squad-product @Armor-test/team-core @Armor-test/unit-test
+/migrations/ @Armor-test/grp-ui @Armor-test/squad-mobile @Armor-test/squad-frontend
+/services/ @Armor-test/grp-payments @Armor-test/squad-database @Armor-test/dept-release
+/controllers/ @Armor-test/squad-product @Armor-test/squad-payments
+
+# File type ownership
+*.py @Armor-test/grp-ui @Armor-test/grp-storage @Armor-test/squad-product
+*.config @Armor-test/squad-ml @Armor-test/squad-database
+*.css @Armor-test/squad-search @Armor-test/grp-search @Armor-test/team-security
+*.lock @Armor-test/squad-mobile @Armor-test/dept-release
+*.yaml @Armor-test/grp-reporting @Armor-test/dept-automation
+*.tsx @Armor-test/dept-data @Armor-test/dept-notifications
+*.cpp @Armor-test/grp-search @Armor-test/dept-billing @Armor-test/team-reporting
+*.rs @Armor-test/grp-storage @Armor-test/dept-automation
+*.md @Armor-test/unit-design @Armor-test/grp-reporting @Armor-test/dept-test
+*.proto @Armor-test/grp-ui @Armor-test/dept-automation
+*.properties @Armor-test/team-frontend @Armor-test/squad-performance @Armor-test/grp-reporting
+*.yml @Armor-test/squad-cache @Armor-test/squad-ml @Armor-test/unit-governance
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
